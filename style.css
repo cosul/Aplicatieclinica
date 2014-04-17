@@ -1,0 +1,25 @@
+/* 
+    Document   : style
+    Created on : Apr 17, 2014, 2:51:41 PM
+    Author     : Cosmin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{width:100%;margin:0;font-family: arial;font-size:12px;}
+header {position:fixed;top:0;border-bottom:1px solid #ccc;font-size:40px;width:100%;padding:10px 0;padding-left:10%;background:#4EA6EA;color:#fff;}
+footer {position:fixed;bottom:0;text-align:center;font-size:17px;border-top:1px solid #ccc;width:100%;padding:10px 0;background:#4EA6EA;color:#fff;}
+main {padding-top:100px;color:#4EA6EA;width:80%;margin:auto;}
+figure {margin:0;width:auto;}
+figure img {border-radius:10px;width:180px;}
+figure {float:left; margin-right:25px;}
+h2 {font-size:15px;margin-bottom: 0;}
+h1 {font-size:20px;margin-top:0;}
+p {margin:0;}
+section {width: 72%;float:left;margin-right:3%;}
+aside{width:25%;float:left;height:235px;text-align:center;}
+aside .liber {display:block; background:url(liber.png) no-repeat;width:150px; height:150px;width:auto;}
+aside .ocupat {display:block; background:url(ocupat.png) no-repeat;width:150px; height:150px;width:auto;}
